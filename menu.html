@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 通用head内开始 -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" rel="stylesheet" href="http://img1.cache.netease.com/cnews/css07/style.css">
+    <script src="http://img1.cache.netease.com/cnews/js/ntes_jslib_1.x.js" type="text/javascript" charset="gb2312"></script>
+    <link rel="stylesheet" href="static/css/cnav2013.897961.css" />
+    <link rel="stylesheet" href="static/css/common.css" />
+</head>
+<body>
+    <div class="ntes_nav_wrap">
+    	<div class="ntes-nav" id="js_N_nav">
+    	    <div class="ntes-nav-main clearfix">
+    	        <div class="c-fl">
+                    <!-- hxw alter -->
+                    <div class="ntes_cnav_logotext" id = "js-addnav">
+                        <a class="ntes_cnav_logoa" id="js-menu" href="javascript:;">
+                            <span>爱玩 - iPlay</span>
+                            <em class="ntes_canv_arrow" id="js-canv_arrow"></em>
+                        </a>
+                        
+                        <!-- 导航 -->
+                        <!-- <div class="m-navLeft m-navLeft-top" id="IndexNav">
+                            <ul class="nav-ul">
+                                <li class="J_lihover ul-liz1 " flag="0">
+                                    <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/indextest/" target="_self">首页<s class="nav-icon nav-icon-in"></s></a></div>
+                                </li>
+                                <li class="J_lihover ul-liz1  " flag="0">
+                                    <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/newindex/" target="_self">看专题<s class="nav-icon nav-icon-new"></s></a></div>
+                                </li>
+                                <li class="ul-liz1">
+                                    <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/ka/" target="_self">领礼包<s class="nav-icon nav-icon-gift"></s></a></div>
+                                </li>
+                                <li class="ul-liz1">
+                                    <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/2015_test_shouyouindex/" target="_self">玩手游<s class="nav-icon nav-icon-phonegm"></s></a></div>
+                                </li>
+                                <li class="ul-liz1">
+                                    <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/2015_test_xinindex/" target="_self">新网游<s class="nav-icon nav-icon-pcgm"></s></a></div>
+                                </li>
+                                <li class="ul-liz1">
+                                    <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/2015_test_ggindex/" target="_self">易竞技<s class="nav-icon nav-icon-cpt"></s></a></div>
+                                </li>
+                                <li class="ul-liz1">
+                                    <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/2015_test_vdindex/" target="_self">视频库<s class="nav-icon nav-icon-vi"></s></a></div>
+                                </li>
+                                <li class="ul-liz1">
+                                    <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/indextest2/" target="_self">网易游戏<s class="nav-icon nav-icon-easegm"></s></a></div>
+                                </li>
+                                <li class="ul-liz1">
+                                    <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/blizzard/" target="_self">暴雪粉<s class="nav-icon nav-icon-bzgm"></s></a></div>
+                                </li>
+                                <li class="J_lihover ul-liz1 li-sch li-nobdb">
+                                    <div class="posr"><a class="ul-liz1-a" href="#" target="_self">搜索<s class="nav-icon nav-icon-sch"></s></a></div>
+                                    <div class="li-sch-son">
+                                        <form action="http://play.163.com/search/result" method="post" name="nisearch_top" id="formtop" target="_blank">                    
+                                            <div class="search-input-area">
+                                                <input type="text" name="keyword" autocomplete="off" id="searchInput_top" onfocus="this.value=''" value="请输入关键词" placeholder="请输入关键词" class="textBox">
+                                            </div>
+                                            <script type="text/javascript">
+                                                (function(){
+                                                   // var newkeysearchinbtn = document.getElementById('sb_form_go');
+                                                    var newkeysearchin = document.getElementById('searchInput_top');
+                                                    var exe = function(){
+                                                        var v = encodeURIComponent(newkeysearchin.value);
+                                                        var url = 'http://play.163.com/search/result/?keyword='+v;
+                                                        window.open(url,"_blank");
+                                                    }
+                                                    // newkeysearchinbtn.onclick = function(){
+                                                    //     exe();
+                                                    //     return false;
+                                                    // }
+                                                    newkeysearchin.onkeydown = function(e){
+                                                        var e=e||event;
+                                                        if(e.keyCode==13){
+                                                            exe();
+                                                            return false;
+                                                        }
+                                                    }
+                                                })();
+                                            </script>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                    <!-- hxw alter end -->
+
+                    <div class="ntes_cnav_link">
+                        <ul>
+                        <!-- hxw alter 去小火icon  -->
+                            <li class="ntes_cnav_gameicon"><a href="http://game.163.com/">网易游戏</a></li>
+                            <li><a href="http://www.163.com/">网易首页</a></li>
+                        </ul>
+                    </div>
+                </div>
+    	        <div class="c-fr">
+    	            <div class="c-fl">
+                        <!-- 登录前 -->
+                        <div class="c-fl" id="js_N_navLoginBefore">
+                            <div id="js_N_navHighlight" class="js_loginframe ntes-nav-login">
+                                <a href="http://reg.163.com/" class="ntes-nav-login-title">登录</a>
+                                <div class="ntes-nav-loginframe-pop" id="js_N_login_wrap" style="display:none">
+                                    <div class="ntes-loginframe clearfix">
+                                        <div class="ntes-loginframe-blank clearfix">
+                                            <span class="ntes-loginframe-tips"><!-- ÍøÒ×ÓÊÏä/³£ÓÃÓÊÏäµÇÂ¼ --></span>
+                                            <label class="ntes-loginframe-label clearfix"><span class="loginframe-hidden">ÕËºÅ£º</span>
+                                                <input id="js_loginframe_username" type="text" class="ntes-loginframe-label-ipt" placeholder="ÍøÒ×ÓÊÏä/³£ÓÃÓÊÏä">
+                                            </label>
+                                        </div>
+                                        <div class="ntes-loginframe-blank clearfix">
+                                            <label class="ntes-loginframe-label clearfix"><span class="loginframe-hidden">ÃÜÂë£º</span>
+                                                <input type="password" class="ntes-loginframe-label-ipt" placeholder="ÇëÊäÈëÃÜÂë">
+                                            </label>
+                                            <span class="ntes-loginframe-label mt6 mb6 clearfix">
+                                                <label class="c-fl">
+                                                    <input type="checkbox" name="autologin" class="ntes-loginframe-checkbox">
+                                                    <span class="c-fl">Ê®ÌìÄÚÃâµÇÂ¼</span>
+                                                </label>
+                                                <a href="http://reg.163.com/RecoverPassword.shtml?f=www" class="c-fr">Íü¼ÇÃÜÂë£¿</a>
+                                            </span>
+                                            <div class="ntes-loginframe-hot-link mb6 clearfix">
+                                                <a href="http://mail.163.com/client/dl.html?from=mail46">ÏÂÔØ¡°×îºÃÓÃµÄÊÖ»úÓÊÏäÓ¦ÓÃ¡±</a>
+                                            </div>
+                                            <button class="ntes-loginframe-btn">
+                                                µÇ¡¡Â¼
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ntes-nav-select ntes-nav-select-wide js_N_navSelect JS_NTES_LOG_FE c-fl">
+                                <a class="ntes-nav-select-title" data-module-name="n_topnavreg" href="http://reg.email.163.com/mailregAll/reg0.jsp?from=163navi&regPage=163">注册免费邮箱<em class="ntes-nav-select-arr"></em></a>
+                                <div class="ntes-nav-select-pop">
+                                    <ul class="ntes-nav-select-list clearfix" style="width:210px;">
+                                        <li class="last JS_NTES_LOG_FE">
+                                            <a href="http://reg.vip.163.com/register.m?from=topnav"><span style="width:190px;">×¢²áVIPÓÊÏä£¨ÌØÈ¨ÓÊÏä£¬¸¶·Ñ£©</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 登录后 -->
+                        <div class="c-fl" id="js_N_NavLoginAfter"  style="display:none">
+                        <!-- hxw 去mr6 增加一个类 -->
+                            <span class="c-fl ntes-nav-login-title">欢迎您</span>
+                            <div id="js_N_logined_warp" data-module-name="n_topnavlogined" class="js_N_navSelect ntes-nav-logined JS_NTES_LOG_FE" tabindex="0">
+                                <span class="ntes-nav-select-title ntes-nav-logined-userinfo"><span id="js_N_navUsername" class="ntes-nav-logined-username">XXXdfgfghfhgf@163.com</span><em class="ntes-nav-select-arr"></em></span>
+                                <div id="js_login_suggest_wrap" class="ntes-nav-select-pop">
+                                    <ul id="js_logined_suggest" class="ntes-nav-select-list clearfix"></ul>
+                                </div>
+                            </div>
+                            <a class="ntes-nav-entry-wide c-fl" target="_self" href="http://reg.163.com/Logout.jsp" id="js_N_navLogout">安全退出</a>
+                        </div>
+                    </div>
+                    <ul class="ntes-nav-inside">
+                        <li class="JS_NTES_LOG_FE" data-module-name="n_topnavlofter">
+                            <div class="ntes-nav-select js_N_navSelect c-fl" tabindex="0">
+                                <a id="js_lofter_icon_url" href="http://www.lofter.com/entry?act=qb163sydl_20140917_01&from=163top" class="ntes-nav-select-title ntes-nav-entry-bgblack"><em class="ntes-nav-entry-lofter">热门专区</em><em class="ntes-nav-select-arr"></em><span class="ntes-nav-msg ntes-nav-lofter-msg" id="js_N_navLofterMsg"><em class="ntes-nav-msg-num"></em></span></a>
+                                <div class="ntes-nav-select-pop ntes-nav-select-pop-lofter">
+                                    <ul id="js_lofter_pop_url" class="ntes-nav-select-list clearfix">
+                                        <li>
+                                            <a href="http://www.lofter.com/entry?act=qb163sydl_20140917_03&from=163top"><span>½øÈëLOFTER</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.lofter.com/entry?act=qb163sydl_20140917_04&from=163top&target=http://www.lofter.com/activity"><span>ÈÈÃÅ»°Ìâ</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.lofter.com/entry?act=qb163sydl_20140917_05&from=163top&target=http://www.lofter.com/wall"><span>ÈÈÃÅ±êÇ©</span></a>
+                                        </li>
+                                        <li class="last">
+                                            <a href="http://www.lofter.com/entry?act=qb163sydl_20140917_06&from=163top&target=http://www.lofter.com/app"><span>ÏÂÔØLOFTER¿Í»§¶Ë</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="JS_NTES_LOG_FE" data-module-name="n_topnavmail">
+                            <div class="ntes-nav-select js_N_navSelect c-fl" tabindex="0">
+                                <a id="js_mail_url" href="http://email.163.com/#from=163nav_icon" class="ntes-nav-select-title ntes-nav-entry-bgblack"><em class="ntes-nav-entry-mail">新邮</em><em class="ntes-nav-select-arr"></em><span class="ntes-nav-msg" id="js_N_navMailMsg"><em class="ntes-nav-msg-num"></em></span></a>
+                                <div class="ntes-nav-select-pop ntes-nav-select-pop-mail">
+                                    <ul class="ntes-nav-select-list clearfix">
+                                        <li>
+                                            <a href="http://email.163.com/#f=topnav"><span>Ãâ·ÑÓÊÏä</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://vipmail.163.com/#f=topnav"><span>VIPÓÊÏä</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://qiye.163.com/#f=topnav"><span>ÆóÒµÓÊÏä</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://reg.email.163.com/mailregAll/reg0.jsp?from=ntes_nav&regPage=163"><span>Ãâ·Ñ×¢²á</span></a>
+                                        </li>
+                                        <li class="last">
+                                            <a href="http://reg.email.163.com/unireg/call.do?cmd=register.entrance&flow=mobile&from=ntes_nav"><span>¿ìËÙ×¢²á</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="JS_NTES_LOG_FE" data-module-name="n_topnavpay">
+                            <div class="ntes-nav-select js_N_navSelect c-fl" tabindex="0">
+                                <a href="http://pay.163.com/" class="ntes-nav-select-title ntes-nav-entry-bgblack"><em class="ntes-nav-entry-money">Ö§¸¶</em><em class="ntes-nav-select-arr"></em></a>
+                                <div class="ntes-nav-select-pop ntes-nav-select-pop-temp">
+                                    <ul class="ntes-nav-select-list clearfix">
+                                        <li>
+                                            <a href="http://pay.163.com/#f=topnav"><span>Ò»¿¨Í¨³äÖµ</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://ecard.163.com/script/index#f=topnav"><span>Ò»¿¨Í¨¹ºÂò</span></a>
+                                        </li>
+                                        <li class="last">
+                                            <a href="http://analytics.163.com/ntes_clck?urlid=454&sign=c03a07caa005eecc65356644a11332ba&url=https%3A%2F%2Fepay.163.com%2Findex.jsp#f=topnav"><span>ÎÒµÄÍøÒ×±¦</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="JS_NTES_LOG_FE" data-module-name="n_topnavhuatian">
+                            <div class="ntes-nav-select js_N_navSelect c-fl" tabindex="0">
+                                <a id="js_love_url" href="http://love.163.com/park/xunren?vendor=163.navi.icon&utm_source=163.com&utm_campaign=163navi" class="ntes-nav-select-title ntes-nav-entry-bgblack"><em class="ntes-nav-entry-huatian">»¨Ìï</em><em class="ntes-nav-select-arr"></em><span class="ntes-nav-msg" id="js_N_navHuatianMsg"><em class="ntes-nav-msg-num"></em></span></a>
+                                <div class="ntes-nav-select-pop ntes-nav-select-pop-huatian">
+                                    <ul class="ntes-nav-select-list clearfix">
+                                        <li>
+                                            <a href="http://love.163.com/search/user?vendor=163.navi.icon&utm_source=163.com&utm_campaign=163navi"><span>ÕÒ¶ÔÏó</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://love.163.com/park?vendor=163.navi.icon&utm_source=163.com&utm_campaign=163navi"><span>´îÚ¨¹ã³¡</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://love.163.com/?vendor=163.navi.icon&utm_source=163.com&utm_campaign=163navi"><span>ÎÒµÄ»¨Ìï</span></a>
+                                        </li>
+                                        <li class="last">
+                                            <a href="http://love.163.com/app?vendor=163.navi.icon&utm_source=163.com&utm_campaign=163navi"><span>ÏÂÔØ»¨Ìï¿Í»§¶Ë</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="JS_NTES_LOG_FE" data-module-name="n_topnavkaola">
+                            <div class="ntes-nav-select js_N_navSelect c-fl" tabindex="0">
+                                <a id="js_kaola_url" href="http://rd.da.netease.com/redirect?t=I4iYc8&p=EA7B9E&target=http%3A%2F%2Fwww.kaola.com%2F" class="ntes-nav-select-title ntes-nav-entry-bgblack"><em class="ntes-nav-entry-kaola">¿¼À­º£¹º</em><em class="ntes-nav-select-arr"></em><span class="ntes-nav-msg" id="js_N_navKaolaMsg"><em class="ntes-nav-msg-num"></em></span></a>
+                                <div class="ntes-nav-select-pop ntes-nav-select-pop-kaola">
+                                    <ul class="ntes-nav-select-list clearfix">
+                                        <li>
+                                            <a href="http://rd.da.netease.com/redirect?t=s3BTdR&p=EA7B9E&target=http%3A%2F%2Fwww.kaola.com%2Factivity%2Fdetail%2F3020.html"><span>Ä¸Ó¤×¨Çø</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://rd.da.netease.com/redirect?t=sqn1pP&p=EA7B9E&target=http%3A%2F%2Fwww.kaola.com%2Factivity%2Fdetail%2F3022.html"><span>½ø¿ÚÃÀÊ³</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://rd.da.netease.com/redirect?t=Aytc2h&p=EA7B9E&target=http%3A%2F%2Fwww.kaola.com%2Factivity%2Fdetail%2F3021.html"><span>ÃÀ×±¸ö»¤</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://rd.da.netease.com/redirect?t=5k9YID&p=EA7B9E&target=http%3A%2F%2Fwww.kaola.com%2Factivity%2Fdetail%2F3023.html"><span>½¡¿µ±£½¡</span></a>
+                                        </li>
+                                        <li class="last">
+                                            <a href="http://rd.da.netease.com/redirect?t=IJgdNV&p=EA7B9E&target=http%3A%2F%2Fwww.kaola.com%2Factivity%2Fdetail%2F3002.html"><span>º£ÍâÖ±ÓÊ</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="JS_NTES_LOG_FE" data-module-name="n_topnavbobo">
+                            <div class="ntes-nav-select js_N_navSelect c-fl" tabindex="0">
+                                <a id="js_bobo_url" href="http://www.bobo.com/?f=163.homeNav" class="ntes-nav-select-title ntes-nav-entry-bgblack"><em class="ntes-nav-entry-bobo">BOBO</em><em class="ntes-nav-select-arr"></em><span class="ntes-nav-msg" id="js_N_navBoboMsg"><em class="ntes-nav-msg-num"></em></span></a>
+                                <div class="ntes-nav-select-pop ntes-nav-select-pop-bobo">
+                                    <ul class="ntes-nav-select-list clearfix">
+                                        <li>
+                                            <a href="http://www.bobo.com/?f=163.homeNavi1"><span>Å®ÉñÊÓÆµÖ±²¥</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.bobo.com/rank/?f=163.homeNavi2"><span>Å®ÉñÅÅÐÐ°ñ</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.bobo.com/special/bulletin/?f=163.homeNavi3"><span>Å®Éñ×ÊÑ¶</span></a>
+                                        </li>
+                                        <li class="last">
+                                            <a href="http://www.bobo.com/special/android/?f=163.homeNavi4"><span>ÏÂÔØBoBo¿Í»§¶Ë</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+    	        </div>    
+    	    </div>
+    	</div>
+    </div>
+    <!-- 导航 -->
+    <div class="m-navLeft m-navLeft-fix" id="IndexNav">
+         <a href="http://play.163.com/" class="nav-text" id="nav-text">
+            <p class="txt">Today in History</p>
+            <div class="nav-date">
+                <div class="m">MAY<i></i></div>
+                <s class="d">06</s>
+            </div>
+            <p class="txt2">2003年5月6日《EVE Online》在北美上线</p>
+         </a>
+        <ul class="nav-ul">
+            <li class="J_lihover ul-liz1 " flag="0">
+                <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/indextest/" target="_self">首页<s class="nav-icon nav-icon-in"></s></a></div>
+            </li>
+            <li class="J_lihover ul-liz1  " flag="0">
+                <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/newindex/" target="_self">看专题<s class="nav-icon nav-icon-new"></s></a></div>
+            </li>
+            <li class="ul-liz1">
+                <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/ka/" target="_self">领礼包<s class="nav-icon nav-icon-gift"></s></a></div>
+            </li>
+            <li class="ul-liz1">
+                <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/2015_test_shouyouindex/" target="_self">玩手游<s class="nav-icon nav-icon-phonegm"></s></a></div>
+            </li>
+            <li class="ul-liz1">
+                <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/2015_test_xinindex/" target="_self">新网游<s class="nav-icon nav-icon-pcgm"></s></a></div>
+            </li>
+            <li class="ul-liz1">
+                <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/2015_test_ggindex/" target="_self">易竞技<s class="nav-icon nav-icon-cpt"></s></a></div>
+            </li>
+            <li class="ul-liz1">
+                <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/2015_test_vdindex/" target="_self">视频库<s class="nav-icon nav-icon-vi"></s></a></div>
+            </li>
+            <li class="ul-liz1">
+                <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/indextest2/" target="_self">网易游戏<s class="nav-icon nav-icon-easegm"></s></a></div>
+            </li>
+            <li class="ul-liz1">
+                <div class="posr"><a class="ul-liz1-a" href="http://play.163.com/special/blizzard/" target="_self">暴雪粉<s class="nav-icon nav-icon-bzgm"></s></a></div>
+            </li>
+            <li class="J_lihover ul-liz1 li-sch li-nobdb">
+                <div class="posr"><a class="ul-liz1-a" href="#" target="_self">搜索<s class="nav-icon nav-icon-sch"></s></a></div>
+                <div class="li-sch-son">
+                    <form action="http://play.163.com/search/result" method="post" name="nisearch_top" id="formtop" target="_blank">                    
+                        <div class="search-input-area">
+                            <input type="text" name="keyword" autocomplete="off" id="searchInput_top" onfocus="this.value=''" value="请输入关键词" placeholder="请输入关键词" class="textBox">
+                        </div>
+                        <script type="text/javascript">
+                            (function(){
+                               // var newkeysearchinbtn = document.getElementById('sb_form_go');
+                                var newkeysearchin = document.getElementById('searchInput_top');
+                                var exe = function(){
+                                    var v = encodeURIComponent(newkeysearchin.value);
+                                    var url = 'http://play.163.com/search/result/?keyword='+v;
+                                    window.open(url,"_blank");
+                                }
+                                // newkeysearchinbtn.onclick = function(){
+                                //     exe();
+                                //     return false;
+                                // }
+                                newkeysearchin.onkeydown = function(e){
+                                    var e=e||event;
+                                    if(e.keyCode==13){
+                                        exe();
+                                        return false;
+                                    }
+                                }
+                            })();
+                        </script>
+                    </form>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+<script src="http://img1.cache.netease.com/f2e/include/2013/cnav2013.911662.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+   var menu = document.getElementById('js-menu');
+   var IndexNav = document.getElementById('IndexNav');
+   var addnav =document.getElementById('js-addnav');
+   var canvArrow = document.getElementById('js-canv_arrow');
+   var body = document.getElementsByTagName('body')[0];
+   var a = document.getElementById('nav-text');
+   var k = 1;//设置表示，1表示导航条在最左边，2表示导航默认隐藏
+
+   function moveIndexNav(){
+    if(document.body.clientWidth <= 1366){
+        if(k == 1){
+            // console.log("悬浮出现")
+            canvArrow.style.display = "block";
+            IndexNav.removeChild(a);
+            IndexNav.setAttribute("class", "m-navLeft m-navLeft-top");
+            IndexNav.setAttribute("className", "m-navLeft m-navLeft-top");
+            // IndexNav.className = "m-navLeft m-navLeft-top";
+            addnav.appendChild(IndexNav);
+            k=2;
+            // menu.onmouseenter = function (){IndexNav.style.top = "45px";}
+            // menu.onmouseleave = function(){IndexNav.style.top = "-750px";}
+            // IndexNav.onmouseenter = function (){IndexNav.style.top = "45px";}
+            // IndexNav.onmouseleave = function(){IndexNav.style.top = "-750px";}
+        }      
+    } else {
+        if(k == 1){
+            canvArrow.style.display = "none";
+        } else {
+            // 由隐藏变到最左侧
+            // console.log('最左侧')
+            canvArrow.style.display = "none";
+            IndexNav.insertBefore(a,IndexNav.childNodes[0]);
+            body.appendChild(IndexNav);
+            k = 1;
+            IndexNav.setAttribute("class", "m-navLeft m-navLeft-fix");
+            IndexNav.setAttribute("className", "m-navLeft m-navLeft-fix");
+        }
+    }        
+   }
+   moveIndexNav();
+   window.onload= function(){
+
+       window.onresize = function(){moveIndexNav();};
+   }
+
+</script>
+</body>
+</html>
